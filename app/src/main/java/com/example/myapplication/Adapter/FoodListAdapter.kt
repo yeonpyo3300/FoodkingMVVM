@@ -1,9 +1,10 @@
-package com.example.myapplication
+package com.example.myapplication.Adapter
 
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.myapplication.R
 import kotlinx.android.synthetic.main.menu_recycler.view.*
 
 class FoodListAdapter : RecyclerView.Adapter<FoodListViewHolder>() {

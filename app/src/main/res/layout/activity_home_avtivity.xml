@@ -88,7 +88,7 @@
 
     <fragment
         android:id="@+id/list"
-        android:name="com.example.myapplication.BlankFragment"
+        android:name="com.example.myapplication.Fragment.BlankFragment"
         android:layout_width="335dp"
         android:layout_height="300dp"
         android:layout_weight="1" />

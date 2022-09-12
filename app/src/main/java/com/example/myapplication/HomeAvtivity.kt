@@ -24,14 +24,14 @@ class HomeAvtivity : AppCompatActivity() {
         restaurantClicked()
     }
 
-    fun viewMoreClicked() {
+//    fun viewMoreClicked() {
 //        val intent = Intent(this, FoodMenuActivity::class.java)
 //        home_view_more_restaurant.setOnClickListener {
 //            startActivity(intent)
 //        }
-    }
+//    }
 
-    fun restaurantClicked() {
+    private fun restaurantClicked() {
         val intent = Intent(this, FoodMenuActivity::class.java)
         image_restaurant.setOnClickListener {
             startActivity(intent)
