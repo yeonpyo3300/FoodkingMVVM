@@ -2,8 +2,9 @@ package com.example.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.core.graphics.blue
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.myapplication.Adapter.FoodListAdapter
+import com.example.myapplication.Adapter.FoodModel
 import kotlinx.android.synthetic.main.activity_food_menu.*
 
 class FoodMenuActivity : AppCompatActivity() {
@@ -20,7 +21,7 @@ class FoodMenuActivity : AppCompatActivity() {
 
     private fun initializeView() {
         for (i in 1..15) {
-            var foodModel = FoodModel(
+            val foodModel = FoodModel(
                 foodName = "Moon cake",
                 foodPrice = i,
                 completed = false,

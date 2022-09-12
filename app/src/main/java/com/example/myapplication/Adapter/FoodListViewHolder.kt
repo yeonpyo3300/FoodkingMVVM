@@ -1,10 +1,11 @@
-package com.example.myapplication
+package com.example.myapplication.Adapter
 
 import android.content.Context
 import android.util.Log
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.myapplication.R
 import kotlinx.android.synthetic.main.menu_recycler.view.*
 
 class FoodListViewHolder(private val context: Context, itemView : View) : RecyclerView.ViewHolder(itemView) {
@@ -33,7 +34,7 @@ class FoodListViewHolder(private val context: Context, itemView : View) : Recycl
             .load(foodModel.foodImage)
             .centerCrop()
             .placeholder(R.mipmap.ic_launcher)
-            .into(foodImage);
+            .into(foodImage)
     }
 
 
