@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/onboarding_background">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/onboarding_image" />
+
+    <TextView
+        android:id="@+id/home_onboarding_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:layout_centerHorizontal="true"
+        android:text="Food King"
+        android:textColor="#4CAF50"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/onboarding_small_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_onboarding_text"
+        android:layout_centerHorizontal="true"
+        android:text="Deliever Favorite Food"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/onboarding_Email_Form"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/onboarding_small_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/conner_radios"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="40dp"
+        android:singleLine="true"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColorHint="#9E9292"
+        android:textSize="30sp"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/onboarding_Password_Form"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/onboarding_Email_Form"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/conner_radios"
+        android:hint="Password"
+        android:textAlignment="viewStart"
+        android:inputType="textPassword"
+        android:textAllCaps="false"
+        android:textColorHint="#9E9292"
+        android:textSize="30sp"
+        android:paddingLeft="40dp"
+        android:singleLine="true"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:id="@+id/btn_onboarding_login"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#53E88B"
+        android:layout_below="@+id/onboarding_Password_Form"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+
+
+</RelativeLayout>
