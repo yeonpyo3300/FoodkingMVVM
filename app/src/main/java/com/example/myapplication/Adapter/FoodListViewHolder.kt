@@ -26,7 +26,7 @@ class FoodListViewHolder(private val context: Context, itemView : View) : Recycl
         Log.d(TAG, "bind view with model")
 
         menuName.text = foodModel.foodName
-        menuPrice.text = foodModel.foodPrice.toString()
+        menuPrice.text = "${foodModel.foodPrice} $"
         checkBox.isChecked = foodModel.completed
 
         Glide

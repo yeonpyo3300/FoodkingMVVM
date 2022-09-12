@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.myapplication.Adapter.FoodListAdapter
 import com.example.myapplication.Adapter.FoodModel
 import kotlinx.android.synthetic.main.activity_food_menu.*
+import kotlin.random.Random
 
 class FoodMenuActivity : AppCompatActivity() {
 
@@ -22,8 +23,8 @@ class FoodMenuActivity : AppCompatActivity() {
     private fun initializeView() {
         for (i in 1..15) {
             val foodModel = FoodModel(
-                foodName = "Moon cake",
-                foodPrice = i,
+                foodName = "Moon cake $i",
+                foodPrice = (1..1000).random(),
                 completed = false,
                 foodImage = "https://thumbnail.image.rakuten.co.jp/@0_mall/glomarket/cabinet/07178412/08756773/imgb08fflcr9l0.jpg?_ex=350x350&s=0&r=1"
             )

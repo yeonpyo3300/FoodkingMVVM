@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BlankFragment">
+    tools:context=".Fragment.BlankFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -22,8 +22,7 @@
             android:id="@+id/image_restaurant"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/pic_restaurant"
-            />
+            android:src="@drawable/pic_restaurant" />
 
 
     </RelativeLayout>

@@ -16,11 +16,18 @@
         android:textSize="20sp"
         android:textColor="#19C120"
         android:textAlignment="center"/>
+    <ImageView
+        android:id="@+id/home_top_advertise"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/pic_restaurant" />
 
 <androidx.recyclerview.widget.RecyclerView
     android:id="@+id/recycler_list"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"/>
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"/>
 
 </LinearLayout>
 
