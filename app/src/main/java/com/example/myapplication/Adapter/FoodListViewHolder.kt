@@ -8,22 +8,30 @@ import com.bumptech.glide.Glide
 import com.example.myapplication.R
 import kotlinx.android.synthetic.main.menu_recycler.view.*
 
-class FoodListViewHolder(private val context: Context, itemView : View) : RecyclerView.ViewHolder(itemView) {
+class FoodListViewHolder(
+    private val context: Context,
+    foodRecyclerViewInterface: FoodRecyclerViewInterface,
+    itemView: View
+) :
+    RecyclerView.ViewHolder(itemView), View.OnClickListener {
 
-    val TAG : String = "Test Log"
+    val TAG: String = "Test Log"
 
     private val menuName = itemView.menu_name
     private val menuPrice = itemView.menu_price
     private val checkBox = itemView.checkbox_menu
     private val foodImage = itemView.menu_image
 
+    private var foodRecyclerViewInterface: FoodRecyclerViewInterface? = null
 
     init {
-        Log.d(TAG, "view holder init")
+        Log.d(TAG, "Food list view holder init")
+        this.foodRecyclerViewInterface = foodRecyclerViewInterface
+        itemView.setOnClickListener(this)
     }
 
-    fun bindView (foodModel: FoodModel) {
-        Log.d(TAG, "bind view with model")
+    fun bindView(foodModel: FoodModel) {
+        Log.d(TAG, "bind view with food model")
 
         menuName.text = foodModel.foodName
         menuPrice.text = "${foodModel.foodPrice} $"
@@ -35,6 +43,10 @@ class FoodListViewHolder(private val context: Context, itemView : View) : Recycl
             .centerCrop()
             .placeholder(R.mipmap.ic_launcher)
             .into(foodImage)
+    }
+
+    override fun onClick(p0: View?) {
+        this.foodRecyclerViewInterface?.onItemClicked(adapterPosition)
     }
 
 

@@ -7,28 +7,38 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.R
 import kotlinx.android.synthetic.main.menu_recycler.view.*
 
-class FoodListAdapter : RecyclerView.Adapter<FoodListViewHolder>() {
+class FoodListAdapter(foodRecyclerViewInterface: FoodRecyclerViewInterface) :
+    RecyclerView.Adapter<FoodListViewHolder>() {
 
-    val TAG = "Test Log"
+    val TAG: String = "Test Log"
 
     private var foodList = ArrayList<FoodModel>()
 
+    private var foodRecyclerViewInterface: FoodRecyclerViewInterface? = null
+
+    init {
+        this.foodRecyclerViewInterface = foodRecyclerViewInterface
+    }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FoodListViewHolder {
         val from = LayoutInflater.from(parent.context)
-        return FoodListViewHolder(parent.context, from.inflate(R.layout.menu_recycler, parent, false)).also {
-            it.itemView.checkbox_menu.setOnCheckedChangeListener { buttonView, checked ->
-                foodList[it.adapterPosition].completed = checked
-                Log.d(TAG, "Checkbox state - box ${it.adapterPosition + 1} $checked")
+        return FoodListViewHolder(
+            parent.context,
+            this.foodRecyclerViewInterface!!,
+            from.inflate(R.layout.menu_recycler, parent, false),
+        )
+            .also {
+                it.itemView.checkbox_menu.setOnCheckedChangeListener { buttonView, checked ->
+                    foodList[it.adapterPosition].completed = checked
+                    Log.d(TAG, "Checkbox state - box ${it.adapterPosition + 1} $checked")
+                }
             }
-        }
     }
 
     override fun onBindViewHolder(holder: FoodListViewHolder, position: Int) {
         holder.bindView(foodList[position])
-        holder.itemView.setOnClickListener {
-            Log.d(TAG, "This is the line : ${position + 1}")
-
-        }
+        //Get position
+        foodRecyclerViewInterface?.onItemClicked(position)
     }
 
     override fun getItemCount(): Int {

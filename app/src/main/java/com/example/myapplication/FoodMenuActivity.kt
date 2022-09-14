@@ -2,15 +2,24 @@ package com.example.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.myapplication.Adapter.FoodListAdapter
 import com.example.myapplication.Adapter.FoodModel
+import com.example.myapplication.Adapter.FoodRecyclerViewInterface
 import kotlinx.android.synthetic.main.activity_food_menu.*
+import kotlinx.android.synthetic.main.menu_recycler.*
+import kotlinx.android.synthetic.main.menu_recycler.view.*
 import kotlin.random.Random
 
-class FoodMenuActivity : AppCompatActivity() {
+class FoodMenuActivity : AppCompatActivity(), FoodRecyclerViewInterface {
+
+    val TAG: String = "Test"
 
     var foodList = ArrayList<FoodModel>()
+    private var foodRecyclerViewPosition: Int? = null
+
     private lateinit var foodListAdapter: FoodListAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,6 +27,9 @@ class FoodMenuActivity : AppCompatActivity() {
         setContentView(R.layout.activity_food_menu)
 
         initializeView()
+
+        foodListAdapter = FoodListAdapter(this)
+
     }
 
     private fun initializeView() {
@@ -31,7 +43,7 @@ class FoodMenuActivity : AppCompatActivity() {
             this.foodList.add(foodModel)
         }
 
-        foodListAdapter = FoodListAdapter()
+        foodListAdapter = FoodListAdapter(this)
         foodListAdapter.createList(foodList)
 
         recycler_list.apply {
@@ -42,5 +54,10 @@ class FoodMenuActivity : AppCompatActivity() {
         }
     }
 
+    // Food list item clicked event
+    override fun onItemClicked(position: Int) {
+        this.foodRecyclerViewPosition = position
+        Log.d(TAG, "item clicked ${position + 1}")
+    }
 
 }

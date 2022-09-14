@@ -11,7 +11,7 @@ class FoodModel(
     val foodImage: String? = null
 ) {
 
-    val TAG = "test"
+    val TAG : String = "test"
 
     init {
         Log.d(TAG, "test Food Model")

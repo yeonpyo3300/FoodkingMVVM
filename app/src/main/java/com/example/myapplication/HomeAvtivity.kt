@@ -20,20 +20,20 @@ class HomeAvtivity : AppCompatActivity() {
             Admob_banner.loadAd(adRequest)
         }
 
-//        viewMoreClicked()
         restaurantClicked()
+        restaurantViewMoreClicked()
     }
-
-//    fun viewMoreClicked() {
-//        val intent = Intent(this, FoodMenuActivity::class.java)
-//        home_view_more_restaurant.setOnClickListener {
-//            startActivity(intent)
-//        }
-//    }
 
     private fun restaurantClicked() {
         val intent = Intent(this, FoodMenuActivity::class.java)
         image_restaurant.setOnClickListener {
+            startActivity(intent)
+        }
+    }
+
+    private fun restaurantViewMoreClicked() {
+        val intent = Intent(this, RestarauntListActivity::class.java)
+        home_view_more_restaurant.setOnClickListener {
             startActivity(intent)
         }
     }
