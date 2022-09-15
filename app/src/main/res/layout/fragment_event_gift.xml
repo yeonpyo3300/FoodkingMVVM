@@ -11,9 +11,10 @@
         android:layout_height="match_parent" />
 
     <ImageView
-        android:id="@+id/image_restaurant"
+        android:id="@+id/image_gift"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/giftcard" />
+        android:src="@drawable/giftcard"
+        android:clickable="true" />
 
 </FrameLayout>

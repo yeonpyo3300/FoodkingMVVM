@@ -1,11 +1,19 @@
 package com.example.myapplication.Fragment
 
+import android.content.ContentValues.TAG
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
+import com.example.myapplication.Adapter.EventGiftDialog
+import com.example.myapplication.Adapter.EventGiftDialogInterface
 import com.example.myapplication.R
+import kotlinx.android.synthetic.main.activity_home_avtivity.*
+import kotlinx.android.synthetic.main.event_gift_dialog.*
+import kotlinx.android.synthetic.main.fragment_event_gift.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -17,7 +25,10 @@ private const val ARG_PARAM2 = "param2"
  * Use the [EventGiftFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class EventGiftFragment : Fragment() {
+class EventGiftFragment : Fragment(), EventGiftDialogInterface {
+
+    val TAG: String = "Test"
+
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -36,6 +47,12 @@ class EventGiftFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_event_gift, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        eventGiftImageClicked()
+
     }
 
     companion object {
@@ -57,4 +74,27 @@ class EventGiftFragment : Fragment() {
                 }
             }
     }
+
+    //Image / Fragment clicked
+    private fun eventGiftImageClicked() {
+
+        image_gift.setOnClickListener {
+            Log.d(TAG, "Event Gift Image clicked")
+            val eventGiftDialog = EventGiftDialog(requireContext(),this)
+            eventGiftDialog.show()
+        }
+    }
+
+    override fun onSaveButtonClicked() {
+        Log.d(TAG, "Fragment - Save button clicked")
+        Toast.makeText(requireContext(), "Save button clicked",Toast.LENGTH_SHORT).show()
+
+    }
+
+    override fun onCancelButtonClicked() {
+        Log.d(TAG, "Fragment - cancel button clicked")
+        Toast.makeText(requireContext(), "Cancel button clicked",Toast.LENGTH_SHORT).show()
+
+    }
+
 }

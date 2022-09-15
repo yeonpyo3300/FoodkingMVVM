@@ -3,12 +3,17 @@ package com.example.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import com.example.myapplication.Adapter.EventGiftDialog
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.MobileAds
 import kotlinx.android.synthetic.main.activity_home_avtivity.*
 import kotlinx.android.synthetic.main.fragment_blank.*
 
 class HomeAvtivity : AppCompatActivity() {
+
+    val TAG : String = "Test"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_avtivity)
@@ -37,4 +42,6 @@ class HomeAvtivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
+
 }

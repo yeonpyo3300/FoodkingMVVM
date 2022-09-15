@@ -37,8 +37,6 @@ class FoodListAdapter(foodRecyclerViewInterface: FoodRecyclerViewInterface) :
 
     override fun onBindViewHolder(holder: FoodListViewHolder, position: Int) {
         holder.bindView(foodList[position])
-        //Get position
-        foodRecyclerViewInterface?.onItemClicked(position)
     }
 
     override fun getItemCount(): Int {

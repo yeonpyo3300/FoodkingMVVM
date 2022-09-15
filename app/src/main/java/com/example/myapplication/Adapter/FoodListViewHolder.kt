@@ -45,7 +45,7 @@ class FoodListViewHolder(
             .into(foodImage)
     }
 
-    override fun onClick(p0: View?) {
+    override fun onClick(view: View?) {
         this.foodRecyclerViewInterface?.onItemClicked(adapterPosition)
     }
 

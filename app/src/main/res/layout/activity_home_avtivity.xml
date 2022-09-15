@@ -125,7 +125,6 @@
         android:name="com.example.myapplication.Fragment.EventGiftFragment"
         android:layout_width="335dp"
         android:layout_height="200dp"
-
         android:layout_weight="1" />
 
     <com.google.android.gms.ads.AdView
