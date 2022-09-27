@@ -1,6 +1,5 @@
 package com.example.myapplication.Fragment
 
-import android.content.ContentValues.TAG
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -11,41 +10,22 @@ import android.widget.Toast
 import com.example.myapplication.Adapter.EventGiftDialog
 import com.example.myapplication.Adapter.EventGiftDialogInterface
 import com.example.myapplication.R
-import kotlinx.android.synthetic.main.activity_home_avtivity.*
-import kotlinx.android.synthetic.main.event_gift_dialog.*
 import kotlinx.android.synthetic.main.fragment_event_gift.*
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [EventGiftFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class EventGiftFragment : Fragment(), EventGiftDialogInterface {
 
-    val TAG: String = "Test"
-
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+    val TAG: String = "Test log"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
+        Log.d(TAG, "EventGiftFragment - onCreate() called")
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_event_gift, container, false)
     }
 
@@ -56,44 +36,30 @@ class EventGiftFragment : Fragment(), EventGiftDialogInterface {
     }
 
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment EventGiftFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            EventGiftFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+        fun newInstance(): EventGiftFragment {
+            return EventGiftFragment()
+        }
     }
 
     //Image / Fragment clicked
     private fun eventGiftImageClicked() {
 
         image_gift.setOnClickListener {
-            Log.d(TAG, "Event Gift Image clicked")
-            val eventGiftDialog = EventGiftDialog(requireContext(),this)
+            Log.d(TAG, "EventGiftFragment - eventGiftImageClicked() called")
+            val eventGiftDialog = EventGiftDialog(requireContext(), this)
             eventGiftDialog.show()
         }
     }
 
     override fun onSaveButtonClicked() {
-        Log.d(TAG, "Fragment - Save button clicked")
-        Toast.makeText(requireContext(), "Save button clicked",Toast.LENGTH_SHORT).show()
+        Log.d(TAG, "EventGiftFragment - onSaveButtonClicked() called")
+        Toast.makeText(requireContext(), "Save button clicked", Toast.LENGTH_SHORT).show()
 
     }
 
     override fun onCancelButtonClicked() {
-        Log.d(TAG, "Fragment - cancel button clicked")
-        Toast.makeText(requireContext(), "Cancel button clicked",Toast.LENGTH_SHORT).show()
+        Log.d(TAG, "EventGiftFragment - onCancelButtonClicked() called")
+        Toast.makeText(requireContext(), "Cancel button clicked", Toast.LENGTH_SHORT).show()
 
     }
 

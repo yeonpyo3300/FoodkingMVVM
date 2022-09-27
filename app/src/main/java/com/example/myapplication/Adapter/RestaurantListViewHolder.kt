@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.restaurant_recycler.view.*
 
 class RestaurantListViewHolder(private val context: Context, itemView : View) : RecyclerView.ViewHolder(itemView) {
 
-    val TAG : String = "Test Log"
+    val TAG : String = "Test log"
 
     private val restName = itemView.restaurant_list_name
     private val restCategory = itemView.restaurant_list_category
@@ -19,7 +19,7 @@ class RestaurantListViewHolder(private val context: Context, itemView : View) : 
     private val restImage = itemView.restaurant_list_image
 
     init {
-        Log.d(TAG, "Restaurant view holder init")
+        Log.d(TAG,"RestaurantListViewHolder - () called")
     }
 
     fun bindView(restaurantListModel: RestaurantListModel) {
@@ -28,7 +28,7 @@ class RestaurantListViewHolder(private val context: Context, itemView : View) : 
         restAddress.text = restaurantListModel.restAddress
         restReviewRating.text = "Rate : ${restaurantListModel.restReviewRating.toString()}"
 
-        Log.d(TAG, "Bind view with Restaurant view model")
+        Log.d(TAG,"RestaurantListViewHolder - bindView() called")
 
         Glide
             .with(context)

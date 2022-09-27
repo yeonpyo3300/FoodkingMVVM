@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.menu_recycler.view.*
 class FoodListAdapter(foodRecyclerViewInterface: FoodRecyclerViewInterface) :
     RecyclerView.Adapter<FoodListViewHolder>() {
 
-    val TAG: String = "Test Log"
+    val TAG : String = "Test log"
 
     private var foodList = ArrayList<FoodModel>()
 

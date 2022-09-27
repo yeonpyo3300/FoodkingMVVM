@@ -15,7 +15,7 @@ import kotlin.random.Random
 
 class FoodMenuActivity : AppCompatActivity(), FoodRecyclerViewInterface {
 
-    val TAG: String = "Test"
+    val TAG : String = "Test log"
 
     var foodList = ArrayList<FoodModel>()
     private var foodRecyclerViewPosition: Int? = null

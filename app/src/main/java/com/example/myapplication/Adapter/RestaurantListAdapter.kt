@@ -1,5 +1,6 @@
 package com.example.myapplication.Adapter
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -7,7 +8,7 @@ import com.example.myapplication.R
 
 class RestaurantListAdapter : RecyclerView.Adapter<RestaurantListViewHolder>() {
 
-    var TAG = "Test"
+    val TAG : String = "Test log"
 
     private var restaurantList = ArrayList<RestaurantListModel>()
 
@@ -26,5 +27,6 @@ class RestaurantListAdapter : RecyclerView.Adapter<RestaurantListViewHolder>() {
 
     fun createList (restaurantList : ArrayList<RestaurantListModel> ) {
         this.restaurantList = restaurantList
+        Log.d(TAG,"RestaurantListAdapter - createList() called")
     }
 }

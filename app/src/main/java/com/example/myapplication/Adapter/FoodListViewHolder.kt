@@ -15,7 +15,7 @@ class FoodListViewHolder(
 ) :
     RecyclerView.ViewHolder(itemView), View.OnClickListener {
 
-    val TAG: String = "Test Log"
+    val TAG : String = "Test log"
 
     private val menuName = itemView.menu_name
     private val menuPrice = itemView.menu_price
@@ -25,13 +25,13 @@ class FoodListViewHolder(
     private var foodRecyclerViewInterface: FoodRecyclerViewInterface? = null
 
     init {
-        Log.d(TAG, "Food list view holder init")
+        Log.d(TAG,"FoodListViewHolder - () called")
         this.foodRecyclerViewInterface = foodRecyclerViewInterface
         itemView.setOnClickListener(this)
     }
 
     fun bindView(foodModel: FoodModel) {
-        Log.d(TAG, "bind view with food model")
+        Log.d(TAG,"FoodListViewHolder - bindView() called")
 
         menuName.text = foodModel.foodName
         menuPrice.text = "${foodModel.foodPrice} $"

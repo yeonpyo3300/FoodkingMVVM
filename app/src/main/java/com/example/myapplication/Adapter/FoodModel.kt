@@ -11,10 +11,10 @@ class FoodModel(
     val foodImage: String? = null
 ) {
 
-    val TAG : String = "test"
+    val TAG : String = "Test log"
 
     init {
-        Log.d(TAG, "test Food Model")
+        Log.d(TAG,"FoodModel - () called")
     }
 
 }

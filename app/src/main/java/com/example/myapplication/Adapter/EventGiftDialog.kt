@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.event_gift_dialog.*
 class EventGiftDialog(context: Context, eventGiftDialogInterface: EventGiftDialogInterface) :
     Dialog(context), View.OnClickListener {
 
-    val TAG: String = "Test"
+   val TAG : String = "Test log"
 
     private var eventGiftDialogInterface: EventGiftDialogInterface? = null
 
@@ -24,6 +24,7 @@ class EventGiftDialog(context: Context, eventGiftDialogInterface: EventGiftDialo
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.event_gift_dialog)
+        Log.d(TAG,"EventGiftDialog - onCreate() called")
 
         window!!.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 

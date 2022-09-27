@@ -14,10 +14,13 @@
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/event_gift_dialog.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_blank.xml" value="0.25" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_event_gift.xml" value="0.1703125" />
+        <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_home.xml" value="0.2625" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_home_scrolling.xml" value="0.29525483304042177" />
+        <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_restaurant.xml" value="0.2625" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/gift_event_dialog.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/menu_recycler.xml" value="0.16" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/restaurant_recycler.xml" value="0.338768115942029" />
+        <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/menu/home_buttom_nav_menu.xml" value="0.18489583333333334" />
       </map>
     </option>
   </component>

@@ -11,9 +11,9 @@ class RestaurantListModel(
 
     )
 {
-    val TAG : String = "test"
+    val TAG : String = "Test log"
     init {
-        Log.d(TAG, "RestModel is created")
+        Log.d(TAG,"RestaurantListModel - () called")
     }
 
 }

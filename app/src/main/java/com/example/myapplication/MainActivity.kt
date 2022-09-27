@@ -1,25 +1,26 @@
 package com.example.myapplication
 
-import android.content.ContentValues.TAG
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import kotlinx.android.synthetic.main.activity_home_avtivity.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
 
+    val TAG : String = "Test log"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Log.d(TAG, "Test on Create")
+        Log.d(TAG,"MainActivity - onCreate() called")
+
         onLoginButtonClicked()
     }
 
     fun onLoginButtonClicked(){
-        val intent = Intent(this, HomeAvtivity::class.java)
+        val intent = Intent(this, HomeActivity::class.java)
         btn_onboarding_login.setOnClickListener {
             startActivity(intent)
         }
