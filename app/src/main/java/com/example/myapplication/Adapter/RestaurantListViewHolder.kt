@@ -10,7 +10,9 @@ import kotlinx.android.synthetic.main.restaurant_recycler.view.*
 
 class RestaurantListViewHolder(private val context: Context, itemView : View) : RecyclerView.ViewHolder(itemView) {
 
-    val TAG : String = "Test log"
+    companion object{
+        const val TAG : String = "Test log"
+    }
 
     private val restName = itemView.restaurant_list_name
     private val restCategory = itemView.restaurant_list_category

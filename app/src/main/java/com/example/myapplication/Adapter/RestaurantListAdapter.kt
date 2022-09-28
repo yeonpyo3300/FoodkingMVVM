@@ -8,7 +8,9 @@ import com.example.myapplication.R
 
 class RestaurantListAdapter : RecyclerView.Adapter<RestaurantListViewHolder>() {
 
-    val TAG : String = "Test log"
+    companion object{
+        const val TAG : String = "Test log"
+    }
 
     private var restaurantList = ArrayList<RestaurantListModel>()
 

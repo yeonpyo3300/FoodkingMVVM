@@ -79,13 +79,13 @@
         android:id="@+id/btn_onboarding_login"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:backgroundTint="#53E88B"
         android:layout_below="@+id/onboarding_Password_Form"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#53E88B"
         android:text="Login"
         android:textColor="#fff"
-        android:textStyle="bold"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"/>
+        android:textStyle="bold" />
 
 
 

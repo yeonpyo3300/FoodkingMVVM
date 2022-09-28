@@ -15,8 +15,6 @@ import kotlinx.android.synthetic.main.fragment_event_gift.*
 
 class EventGiftFragment : Fragment(), EventGiftDialogInterface {
 
-    val TAG: String = "Test log"
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d(TAG, "EventGiftFragment - onCreate() called")
@@ -36,6 +34,8 @@ class EventGiftFragment : Fragment(), EventGiftDialogInterface {
     }
 
     companion object {
+        const val TAG : String = "Test log"
+
         fun newInstance(): EventGiftFragment {
             return EventGiftFragment()
         }

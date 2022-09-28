@@ -11,6 +11,10 @@ import kotlin.random.Random
 
 class RestarauntListActivity : AppCompatActivity() {
 
+    companion object{
+        const val TAG : String = "Test log"
+    }
+
     var restaurantList = ArrayList<RestaurantListModel>()
     private lateinit var restAdapter: RestaurantListAdapter
     override fun onCreate(savedInstanceState: Bundle?) {

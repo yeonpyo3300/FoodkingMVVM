@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/home_top_advertise"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/home_advertise" />
+
+</LinearLayout>

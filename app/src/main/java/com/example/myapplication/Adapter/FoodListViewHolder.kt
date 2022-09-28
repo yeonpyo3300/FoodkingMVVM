@@ -15,7 +15,9 @@ class FoodListViewHolder(
 ) :
     RecyclerView.ViewHolder(itemView), View.OnClickListener {
 
-    val TAG : String = "Test log"
+    companion object{
+        const val TAG : String = "Test log"
+    }
 
     private val menuName = itemView.menu_name
     private val menuPrice = itemView.menu_price

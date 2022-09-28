@@ -13,7 +13,9 @@ import kotlinx.android.synthetic.main.event_gift_dialog.*
 class EventGiftDialog(context: Context, eventGiftDialogInterface: EventGiftDialogInterface) :
     Dialog(context), View.OnClickListener {
 
-   val TAG : String = "Test log"
+    companion object{
+        const val TAG : String = "Test log"
+    }
 
     private var eventGiftDialogInterface: EventGiftDialogInterface? = null
 

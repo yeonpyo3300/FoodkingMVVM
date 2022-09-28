@@ -10,7 +10,9 @@ import kotlinx.android.synthetic.main.menu_recycler.view.*
 class FoodListAdapter(foodRecyclerViewInterface: FoodRecyclerViewInterface) :
     RecyclerView.Adapter<FoodListViewHolder>() {
 
-    val TAG : String = "Test log"
+    companion object{
+        const val TAG : String = "Test log"
+    }
 
     private var foodList = ArrayList<FoodModel>()
 
@@ -25,7 +27,7 @@ class FoodListAdapter(foodRecyclerViewInterface: FoodRecyclerViewInterface) :
         return FoodListViewHolder(
             parent.context,
             this.foodRecyclerViewInterface!!,
-            from.inflate(R.layout.menu_recycler, parent, false),
+            from.inflate(R.layout.menu_recycler, parent, false)
         )
             .also {
                 it.itemView.checkbox_menu.setOnCheckedChangeListener { buttonView, checked ->

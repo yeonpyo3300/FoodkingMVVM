@@ -7,6 +7,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.myapplication.Adapter.AdvertisePagerModel
+import com.example.myapplication.Adapter.AdvertisePagerRecyclerAdapter
+import com.example.myapplication.Adapter.FoodListAdapter
 import com.example.myapplication.FoodMenuActivity
 import com.example.myapplication.R
 import com.example.myapplication.RestarauntListActivity
@@ -18,7 +21,8 @@ import kotlinx.android.synthetic.main.fragment_restaurant.*
 
 class HomeFragment : Fragment() {
 
-    private val TAG : String = "Test log"
+    private var advertiseList = ArrayList<AdvertisePagerModel>()
+    private lateinit var advertisePagerRecyclerAdapter: AdvertisePagerRecyclerAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -33,8 +37,9 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         restaurantClicked()
         restaurantViewMoreClicked()
+        initializeAdView()
 
-        //Admob advertisement at the bottom
+        //Test Admob advertisement at the bottom
 //        MobileAds.initialize(this) {
 //
 //            val adRequest = AdRequest.Builder().build()
@@ -45,6 +50,8 @@ class HomeFragment : Fragment() {
 
 
     companion object {
+        const val TAG: String = "Test log"
+
         fun newInstance(): HomeFragment {
             return HomeFragment()
         }
@@ -63,6 +70,19 @@ class HomeFragment : Fragment() {
             startActivity(intent)
         }
     }
+
+    private fun initializeAdView() {
+        advertiseList.add(AdvertisePagerModel(R.drawable.home_advertise))
+        advertiseList.add(AdvertisePagerModel(R.drawable.promotion2))
+        advertiseList.add(AdvertisePagerModel(R.drawable.promotion3))
+
+        advertisePagerRecyclerAdapter = AdvertisePagerRecyclerAdapter(advertiseList)
+        advertise_view_pager.apply {
+            adapter = advertisePagerRecyclerAdapter
+            spring_dots_indicator.attachTo(this)
+        }
+    }
+
 
 
 }

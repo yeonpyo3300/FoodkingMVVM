@@ -11,7 +11,10 @@ class RestaurantListModel(
 
     )
 {
-    val TAG : String = "Test log"
+    companion object{
+        const val TAG : String = "Test log"
+    }
+
     init {
         Log.d(TAG,"RestaurantListModel - () called")
     }

@@ -5,21 +5,27 @@
       <map>
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2025" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/conner_redios.xml" value="0.2025" />
+        <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.155" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_destination_direction_filled_svg_vector.xml" value="0.2025" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/splash_gradient.xml" value="0.2025" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_food_menu.xml" value="0.25" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_home_avtivity.xml" value="0.22" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_restaraunt_list.xml" value="0.338768115942029" />
+        <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/advertise_pager_recycler.xml" value="0.196875" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/event_gift_dialog.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_blank.xml" value="0.25" />
+        <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_cart.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_chat.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_event_gift.xml" value="0.1703125" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_home.xml" value="0.2625" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_home_scrolling.xml" value="0.29525483304042177" />
+        <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_profile.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_restaurant.xml" value="0.2625" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/gift_event_dialog.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/menu_recycler.xml" value="0.16" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/restaurant_recycler.xml" value="0.338768115942029" />
+        <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/menu/home_bottom_nav_menu.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/yeonp/AndroidStudioProjects/MyApplication/app/src/main/res/menu/home_buttom_nav_menu.xml" value="0.18489583333333334" />
       </map>
     </option>
