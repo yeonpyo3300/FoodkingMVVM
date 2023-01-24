@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-41:/layout/payment_recycler_item.xml",
+        "source": "com.example.myapplication.app-main-44:/layout/payment_recycler_item.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-41:/layout/restaurant_recycler.xml",
+        "source": "com.example.myapplication.app-main-44:/layout/restaurant_recycler.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-41:/layout/fragment_home.xml",
+        "source": "com.example.myapplication.app-main-44:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-41:/layout/fragment_restaurant.xml",
+        "source": "com.example.myapplication.app-main-44:/layout/fragment_restaurant.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-41:/layout/fragment_chat.xml",
+        "source": "com.example.myapplication.app-main-44:/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-41:/layout/menu_recycler.xml",
+        "source": "com.example.myapplication.app-main-44:/layout/menu_recycler.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-41:/layout/activity_food_menu.xml",
+        "source": "com.example.myapplication.app-main-44:/layout/activity_food_menu.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-41:/layout/event_gift_dialog.xml",
+        "source": "com.example.myapplication.app-main-44:/layout/event_gift_dialog.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-41:/layout/activity_restaraunt_list.xml",
+        "source": "com.example.myapplication.app-main-44:/layout/activity_restaraunt_list.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-41:/layout/activity_home_avtivity.xml",
+        "source": "com.example.myapplication.app-main-44:/layout/activity_home_avtivity.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-41:/layout/advertise_pager_recycler.xml",
+        "source": "com.example.myapplication.app-main-44:/layout/advertise_pager_recycler.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-41:/layout/fragment_cart.xml",
+        "source": "com.example.myapplication.app-main-44:/layout/fragment_cart.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-41:/layout/fragment_profile.xml",
+        "source": "com.example.myapplication.app-main-44:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.example.myapplication.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-41:/layout/fragment_event_gift.xml",
+        "source": "com.example.myapplication.app-main-44:/layout/fragment_event_gift.xml"
+    }
+]

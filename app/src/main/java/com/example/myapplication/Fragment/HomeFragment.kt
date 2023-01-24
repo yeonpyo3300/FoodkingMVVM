@@ -2,18 +2,15 @@ package com.example.myapplication.Fragment
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.myapplication.Adapter.AdvertisePagerModel
 import com.example.myapplication.Adapter.AdvertisePagerRecyclerAdapter
-import com.example.myapplication.Adapter.FoodListAdapter
-import com.example.myapplication.FoodMenuActivity
+import com.example.myapplication.UI.FoodMenuActivity
 import com.example.myapplication.R
-import com.example.myapplication.RestarauntListActivity
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.example.myapplication.UI.RestarauntListActivity
 import com.google.android.material.navigation.NavigationBarView
 import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_restaurant.*
