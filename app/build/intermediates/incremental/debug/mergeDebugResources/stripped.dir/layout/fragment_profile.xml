@@ -8,25 +8,39 @@
     android:padding="10dp"
     tools:context=".Fragment.ProfileFragment">
 
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Name : YB"
-        android:textColor="#53E88B"
-        android:textSize="20sp" />
-
-    <Button
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Save"/>
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_add_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/btn_delete_all_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Delete All" />
+
+    </LinearLayout>
+
+
+
+
+
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:id="@+id/profile_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         tools:listitem="@layout/payment_recycler_item"/>
+
+
 <!--        android:padding="@dimen/big_padding"-->
 
 

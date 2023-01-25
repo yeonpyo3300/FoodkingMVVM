@@ -8,6 +8,7 @@ public final class CartFragment extends androidx.fragment.app.Fragment {
     public static final com.example.myapplication.Fragment.CartFragment.Companion Companion = null;
     @org.jetbrains.annotations.NotNull()
     public static final java.lang.String TAG = "Test log";
+    private java.util.HashMap _$_findViewCache;
     
     public CartFragment() {
         super();

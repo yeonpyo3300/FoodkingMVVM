@@ -12,6 +12,7 @@ public final class FoodMenuActivity extends androidx.appcompat.app.AppCompatActi
     private java.util.ArrayList<com.example.myapplication.Adapter.FoodModel> foodList;
     private java.lang.Integer foodRecyclerViewPosition;
     private com.example.myapplication.Adapter.FoodListAdapter foodListAdapter;
+    private java.util.HashMap _$_findViewCache;
     
     public FoodMenuActivity() {
         super();

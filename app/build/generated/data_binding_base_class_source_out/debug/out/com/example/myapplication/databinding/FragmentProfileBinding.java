@@ -4,6 +4,7 @@ package com.example.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,12 +21,20 @@ public final class FragmentProfileBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final RecyclerView recyclerview;
+  public final Button btnAddPayment;
 
-  private FragmentProfileBinding(@NonNull LinearLayout rootView,
-      @NonNull RecyclerView recyclerview) {
+  @NonNull
+  public final Button btnDeleteAllPayment;
+
+  @NonNull
+  public final RecyclerView profileRecycler;
+
+  private FragmentProfileBinding(@NonNull LinearLayout rootView, @NonNull Button btnAddPayment,
+      @NonNull Button btnDeleteAllPayment, @NonNull RecyclerView profileRecycler) {
     this.rootView = rootView;
-    this.recyclerview = recyclerview;
+    this.btnAddPayment = btnAddPayment;
+    this.btnDeleteAllPayment = btnDeleteAllPayment;
+    this.profileRecycler = profileRecycler;
   }
 
   @Override
@@ -55,13 +64,26 @@ public final class FragmentProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.recyclerview;
-      RecyclerView recyclerview = ViewBindings.findChildViewById(rootView, id);
-      if (recyclerview == null) {
+      id = R.id.btn_add_payment;
+      Button btnAddPayment = ViewBindings.findChildViewById(rootView, id);
+      if (btnAddPayment == null) {
         break missingId;
       }
 
-      return new FragmentProfileBinding((LinearLayout) rootView, recyclerview);
+      id = R.id.btn_delete_all_payment;
+      Button btnDeleteAllPayment = ViewBindings.findChildViewById(rootView, id);
+      if (btnDeleteAllPayment == null) {
+        break missingId;
+      }
+
+      id = R.id.profile_recycler;
+      RecyclerView profileRecycler = ViewBindings.findChildViewById(rootView, id);
+      if (profileRecycler == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((LinearLayout) rootView, btnAddPayment, btnDeleteAllPayment,
+          profileRecycler);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

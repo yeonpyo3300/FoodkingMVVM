@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapplication.app-mergeDebugResources-40:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.example.myapplication.app-mergeDebugResources-3:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "/home/ybiao/.gradle/caches/transforms-3/319818de8066db9dee1015fa48896948/transformed/core-1.8.0/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "C:\\Users\\yeonp\\.gradle\\caches\\transforms-3\\319818de8066db9dee1015fa48896948\\transformed\\core-1.8.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/ybiao/.gradle/caches/transforms-3/25fdb4b5729408368178052da17f5e34/transformed/appcompat-1.5.0/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "C:\\Users\\yeonp\\.gradle\\caches\\transforms-3\\25fdb4b5729408368178052da17f5e34\\transformed\\appcompat-1.5.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

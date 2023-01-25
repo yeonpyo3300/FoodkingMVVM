@@ -1,45 +1,50 @@
-com.example.myapplication.app-recyclerview-1.1.0-0 /home/ybiao/.gradle/caches/transforms-3/025ae0e8e070532a925b968a91c2dcd3/transformed/recyclerview-1.1.0/res
-com.example.myapplication.app-lifecycle-livedata-core-2.5.1-1 /home/ybiao/.gradle/caches/transforms-3/08c3f0df28b319d7f143e20e39976470/transformed/lifecycle-livedata-core-2.5.1/res
-com.example.myapplication.app-jetified-lottie-5.2.0-2 /home/ybiao/.gradle/caches/transforms-3/0b83fa4a221740a5fedadf16022635dd/transformed/jetified-lottie-5.2.0/res
-com.example.myapplication.app-constraintlayout-2.1.4-3 /home/ybiao/.gradle/caches/transforms-3/0d84a4d4da2abb3fb58227fdd5309bb8/transformed/constraintlayout-2.1.4/res
-com.example.myapplication.app-lifecycle-livedata-2.5.1-4 /home/ybiao/.gradle/caches/transforms-3/1bf269c984736ea7e8d09430a069b66d/transformed/lifecycle-livedata-2.5.1/res
-com.example.myapplication.app-appcompat-1.5.0-5 /home/ybiao/.gradle/caches/transforms-3/25fdb4b5729408368178052da17f5e34/transformed/appcompat-1.5.0/res
-com.example.myapplication.app-jetified-play-services-ads-lite-21.0.0-6 /home/ybiao/.gradle/caches/transforms-3/2f31675b4d2d4a68f801bc920ba00e29/transformed/jetified-play-services-ads-lite-21.0.0/res
-com.example.myapplication.app-fragment-1.3.6-7 /home/ybiao/.gradle/caches/transforms-3/2fee84ce99728401b49e699b68198397/transformed/fragment-1.3.6/res
-com.example.myapplication.app-jetified-startup-runtime-1.1.1-8 /home/ybiao/.gradle/caches/transforms-3/30c6f81231359517120429df1c780a80/transformed/jetified-startup-runtime-1.1.1/res
-com.example.myapplication.app-core-1.8.0-9 /home/ybiao/.gradle/caches/transforms-3/319818de8066db9dee1015fa48896948/transformed/core-1.8.0/res
-com.example.myapplication.app-jetified-appcompat-resources-1.5.0-10 /home/ybiao/.gradle/caches/transforms-3/3c6b8c6acd4bbadbd905589afc056ce1/transformed/jetified-appcompat-resources-1.5.0/res
-com.example.myapplication.app-jetified-play-services-base-18.0.0-11 /home/ybiao/.gradle/caches/transforms-3/4e49ced3429f0dd509043d76690214ab/transformed/jetified-play-services-base-18.0.0/res
-com.example.myapplication.app-jetified-activity-1.5.0-12 /home/ybiao/.gradle/caches/transforms-3/663731bf2ccd248052c92bb11a4cbdc5/transformed/jetified-activity-1.5.0/res
-com.example.myapplication.app-jetified-lifecycle-livedata-ktx-2.5.1-13 /home/ybiao/.gradle/caches/transforms-3/6704ee7732130aaccd730869edc1b0f8/transformed/jetified-lifecycle-livedata-ktx-2.5.1/res
-com.example.myapplication.app-lifecycle-viewmodel-2.5.1-14 /home/ybiao/.gradle/caches/transforms-3/6740173314278d5dc47a04980597f4e3/transformed/lifecycle-viewmodel-2.5.1/res
-com.example.myapplication.app-jetified-savedstate-1.2.0-15 /home/ybiao/.gradle/caches/transforms-3/7002a03739265e0a14b05d2e207153d0/transformed/jetified-savedstate-1.2.0/res
-com.example.myapplication.app-jetified-glide-4.13.2-16 /home/ybiao/.gradle/caches/transforms-3/73a3ee0576519f095d6be61bdf574f72/transformed/jetified-glide-4.13.2/res
-com.example.myapplication.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-17 /home/ybiao/.gradle/caches/transforms-3/7519c0d1a990da8b87a60b31660f4302/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/res
-com.example.myapplication.app-jetified-lifecycle-viewmodel-ktx-2.5.1-18 /home/ybiao/.gradle/caches/transforms-3/7890c866a9e285ae8b84ec435daf9cc4/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/res
-com.example.myapplication.app-jetified-emoji2-views-helper-1.2.0-19 /home/ybiao/.gradle/caches/transforms-3/880845d8c3350e4fb24160b7ecab3afa/transformed/jetified-emoji2-views-helper-1.2.0/res
-com.example.myapplication.app-jetified-core-ktx-1.8.0-20 /home/ybiao/.gradle/caches/transforms-3/8b8ee3e062ecdcbdf390455929ef4f58/transformed/jetified-core-ktx-1.8.0/res
-com.example.myapplication.app-material-1.6.1-21 /home/ybiao/.gradle/caches/transforms-3/9d6778b007a14e0c6659deb3da7018f2/transformed/material-1.6.1/res
-com.example.myapplication.app-jetified-emoji2-1.2.0-22 /home/ybiao/.gradle/caches/transforms-3/9eaa5499e5917bf161e9e1c1138b7d31/transformed/jetified-emoji2-1.2.0/res
-com.example.myapplication.app-coordinatorlayout-1.1.0-23 /home/ybiao/.gradle/caches/transforms-3/ad6dc95340b171e84c4ad5205ef31393/transformed/coordinatorlayout-1.1.0/res
-com.example.myapplication.app-jetified-play-services-basement-18.0.0-24 /home/ybiao/.gradle/caches/transforms-3/afbadbf3980628a8b1e7b44c4e6c3ba5/transformed/jetified-play-services-basement-18.0.0/res
-com.example.myapplication.app-jetified-lifecycle-process-2.4.1-25 /home/ybiao/.gradle/caches/transforms-3/afbe6f79812804f6bb7e1730342d066f/transformed/jetified-lifecycle-process-2.4.1/res
-com.example.myapplication.app-cardview-1.0.0-26 /home/ybiao/.gradle/caches/transforms-3/b61d68b331896ea26f23fd544338c1eb/transformed/cardview-1.0.0/res
-com.example.myapplication.app-lifecycle-runtime-2.5.0-27 /home/ybiao/.gradle/caches/transforms-3/c2add623c0a14a8a74e5c008a11ccce5/transformed/lifecycle-runtime-2.5.0/res
-com.example.myapplication.app-jetified-lifecycle-livedata-core-ktx-2.5.1-28 /home/ybiao/.gradle/caches/transforms-3/d8fa3080ba49f32cbbc4d909a5a1110a/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1/res
-com.example.myapplication.app-jetified-annotation-experimental-1.1.0-29 /home/ybiao/.gradle/caches/transforms-3/d94281720382a7a89a20af48d66752c9/transformed/jetified-annotation-experimental-1.1.0/res
-com.example.myapplication.app-jetified-viewpager2-1.0.0-30 /home/ybiao/.gradle/caches/transforms-3/dd0ce136de6aa1e99b442f04e06b9020/transformed/jetified-viewpager2-1.0.0/res
-com.example.myapplication.app-jetified-dotsindicator-4.3-debug-31 /home/ybiao/.gradle/caches/transforms-3/dff61bcc6726d4a9c4a5bb1a53a9299f/transformed/jetified-dotsindicator-4.3-debug/res
-com.example.myapplication.app-drawerlayout-1.1.1-32 /home/ybiao/.gradle/caches/transforms-3/e33a5a07e0e96c48df04ee4e4b5363cc/transformed/drawerlayout-1.1.1/res
-com.example.myapplication.app-jetified-play-services-ads-21.0.0-33 /home/ybiao/.gradle/caches/transforms-3/e76815b53807b70b7d1868d55de646d0/transformed/jetified-play-services-ads-21.0.0/res
-com.example.myapplication.app-browser-1.0.0-34 /home/ybiao/.gradle/caches/transforms-3/e7c579d8ff1780ad4abb562d5dec906c/transformed/browser-1.0.0/res
-com.example.myapplication.app-transition-1.2.0-35 /home/ybiao/.gradle/caches/transforms-3/e89f6667b25ffd1e670d2a33688ccd32/transformed/transition-1.2.0/res
-com.example.myapplication.app-work-runtime-2.7.0-36 /home/ybiao/.gradle/caches/transforms-3/f7ce3ad393766733096226e7fdab38c9/transformed/work-runtime-2.7.0/res
-com.example.myapplication.app-pngs-37 /home/ybiao/AndroidPractice/FoodKingD/app/build/generated/res/pngs/debug
-com.example.myapplication.app-resValues-38 /home/ybiao/AndroidPractice/FoodKingD/app/build/generated/res/resValues/debug
-com.example.myapplication.app-rs-39 /home/ybiao/AndroidPractice/FoodKingD/app/build/generated/res/rs/debug
-com.example.myapplication.app-packageDebugResources-40 /home/ybiao/AndroidPractice/FoodKingD/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.myapplication.app-packageDebugResources-41 /home/ybiao/AndroidPractice/FoodKingD/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.myapplication.app-merged_res-42 /home/ybiao/AndroidPractice/FoodKingD/app/build/intermediates/merged_res/debug
-com.example.myapplication.app-debug-43 /home/ybiao/AndroidPractice/FoodKingD/app/src/debug/res
-com.example.myapplication.app-main-44 /home/ybiao/AndroidPractice/FoodKingD/app/src/main/res
+com.example.myapplication.app-pngs-0 C:\Android stuido project\Food Mvvm colone\FoodMVVM\app\build\generated\res\pngs\debug
+com.example.myapplication.app-resValues-1 C:\Android stuido project\Food Mvvm colone\FoodMVVM\app\build\generated\res\resValues\debug
+com.example.myapplication.app-rs-2 C:\Android stuido project\Food Mvvm colone\FoodMVVM\app\build\generated\res\rs\debug
+com.example.myapplication.app-mergeDebugResources-3 C:\Android stuido project\Food Mvvm colone\FoodMVVM\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.myapplication.app-mergeDebugResources-4 C:\Android stuido project\Food Mvvm colone\FoodMVVM\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.myapplication.app-merged_res-5 C:\Android stuido project\Food Mvvm colone\FoodMVVM\app\build\intermediates\merged_res\debug
+com.example.myapplication.app-debug-6 C:\Android stuido project\Food Mvvm colone\FoodMVVM\app\src\debug\res
+com.example.myapplication.app-main-7 C:\Android stuido project\Food Mvvm colone\FoodMVVM\app\src\main\res
+com.example.myapplication.app-recyclerview-1.1.0-8 C:\Users\yeonp\.gradle\caches\transforms-3\025ae0e8e070532a925b968a91c2dcd3\transformed\recyclerview-1.1.0\res
+com.example.myapplication.app-jetified-lottie-5.2.0-9 C:\Users\yeonp\.gradle\caches\transforms-3\0b83fa4a221740a5fedadf16022635dd\transformed\jetified-lottie-5.2.0\res
+com.example.myapplication.app-constraintlayout-2.1.4-10 C:\Users\yeonp\.gradle\caches\transforms-3\0d84a4d4da2abb3fb58227fdd5309bb8\transformed\constraintlayout-2.1.4\res
+com.example.myapplication.app-jetified-lifecycle-viewmodel-savedstate-2.5.0-11 C:\Users\yeonp\.gradle\caches\transforms-3\130ae65330b03f8a3f0048a8a89e2f6c\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.0\res
+com.example.myapplication.app-sqlite-2.3.0-12 C:\Users\yeonp\.gradle\caches\transforms-3\15dbc9a1c04ed57dde3571647c797513\transformed\sqlite-2.3.0\res
+com.example.myapplication.app-lifecycle-livedata-core-2.5.0-13 C:\Users\yeonp\.gradle\caches\transforms-3\22d21f7463d60d03ec187c89ec785950\transformed\lifecycle-livedata-core-2.5.0\res
+com.example.myapplication.app-room-runtime-2.5.0-14 C:\Users\yeonp\.gradle\caches\transforms-3\25cef470e80ce53671f927214f79dbd6\transformed\room-runtime-2.5.0\res
+com.example.myapplication.app-appcompat-1.5.0-15 C:\Users\yeonp\.gradle\caches\transforms-3\25fdb4b5729408368178052da17f5e34\transformed\appcompat-1.5.0\res
+com.example.myapplication.app-jetified-play-services-ads-lite-21.0.0-16 C:\Users\yeonp\.gradle\caches\transforms-3\2f31675b4d2d4a68f801bc920ba00e29\transformed\jetified-play-services-ads-lite-21.0.0\res
+com.example.myapplication.app-fragment-1.3.6-17 C:\Users\yeonp\.gradle\caches\transforms-3\2fee84ce99728401b49e699b68198397\transformed\fragment-1.3.6\res
+com.example.myapplication.app-jetified-startup-runtime-1.1.1-18 C:\Users\yeonp\.gradle\caches\transforms-3\30c6f81231359517120429df1c780a80\transformed\jetified-startup-runtime-1.1.1\res
+com.example.myapplication.app-core-1.8.0-19 C:\Users\yeonp\.gradle\caches\transforms-3\319818de8066db9dee1015fa48896948\transformed\core-1.8.0\res
+com.example.myapplication.app-jetified-room-ktx-2.5.0-20 C:\Users\yeonp\.gradle\caches\transforms-3\39b8c3b97944b521465bebf798112f3f\transformed\jetified-room-ktx-2.5.0\res
+com.example.myapplication.app-jetified-appcompat-resources-1.5.0-21 C:\Users\yeonp\.gradle\caches\transforms-3\3c6b8c6acd4bbadbd905589afc056ce1\transformed\jetified-appcompat-resources-1.5.0\res
+com.example.myapplication.app-jetified-debug-db-1.0.6-22 C:\Users\yeonp\.gradle\caches\transforms-3\3c70aeb3f6595c1ee356240e8f5b350a\transformed\jetified-debug-db-1.0.6\res
+com.example.myapplication.app-jetified-lifecycle-viewmodel-ktx-2.4.0-23 C:\Users\yeonp\.gradle\caches\transforms-3\4110c78e3724c9c634e046ab9d032594\transformed\jetified-lifecycle-viewmodel-ktx-2.4.0\res
+com.example.myapplication.app-jetified-play-services-base-18.0.0-24 C:\Users\yeonp\.gradle\caches\transforms-3\4e49ced3429f0dd509043d76690214ab\transformed\jetified-play-services-base-18.0.0\res
+com.example.myapplication.app-jetified-activity-1.5.0-25 C:\Users\yeonp\.gradle\caches\transforms-3\663731bf2ccd248052c92bb11a4cbdc5\transformed\jetified-activity-1.5.0\res
+com.example.myapplication.app-sqlite-framework-2.3.0-26 C:\Users\yeonp\.gradle\caches\transforms-3\6f231c4f885fdb1e3bc63eefab3f4c79\transformed\sqlite-framework-2.3.0\res
+com.example.myapplication.app-jetified-savedstate-1.2.0-27 C:\Users\yeonp\.gradle\caches\transforms-3\7002a03739265e0a14b05d2e207153d0\transformed\jetified-savedstate-1.2.0\res
+com.example.myapplication.app-jetified-glide-4.13.2-28 C:\Users\yeonp\.gradle\caches\transforms-3\73a3ee0576519f095d6be61bdf574f72\transformed\jetified-glide-4.13.2\res
+com.example.myapplication.app-jetified-emoji2-views-helper-1.2.0-29 C:\Users\yeonp\.gradle\caches\transforms-3\880845d8c3350e4fb24160b7ecab3afa\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.example.myapplication.app-jetified-core-ktx-1.8.0-30 C:\Users\yeonp\.gradle\caches\transforms-3\8b8ee3e062ecdcbdf390455929ef4f58\transformed\jetified-core-ktx-1.8.0\res
+com.example.myapplication.app-material-1.6.1-31 C:\Users\yeonp\.gradle\caches\transforms-3\9d6778b007a14e0c6659deb3da7018f2\transformed\material-1.6.1\res
+com.example.myapplication.app-jetified-emoji2-1.2.0-32 C:\Users\yeonp\.gradle\caches\transforms-3\9eaa5499e5917bf161e9e1c1138b7d31\transformed\jetified-emoji2-1.2.0\res
+com.example.myapplication.app-coordinatorlayout-1.1.0-33 C:\Users\yeonp\.gradle\caches\transforms-3\ad6dc95340b171e84c4ad5205ef31393\transformed\coordinatorlayout-1.1.0\res
+com.example.myapplication.app-jetified-play-services-basement-18.0.0-34 C:\Users\yeonp\.gradle\caches\transforms-3\afbadbf3980628a8b1e7b44c4e6c3ba5\transformed\jetified-play-services-basement-18.0.0\res
+com.example.myapplication.app-jetified-lifecycle-process-2.4.1-35 C:\Users\yeonp\.gradle\caches\transforms-3\afbe6f79812804f6bb7e1730342d066f\transformed\jetified-lifecycle-process-2.4.1\res
+com.example.myapplication.app-cardview-1.0.0-36 C:\Users\yeonp\.gradle\caches\transforms-3\b61d68b331896ea26f23fd544338c1eb\transformed\cardview-1.0.0\res
+com.example.myapplication.app-databinding-runtime-7.2.2-37 C:\Users\yeonp\.gradle\caches\transforms-3\bec4df8e42159ea3c01aa3c6cc866023\transformed\databinding-runtime-7.2.2\res
+com.example.myapplication.app-lifecycle-runtime-2.5.0-38 C:\Users\yeonp\.gradle\caches\transforms-3\c2add623c0a14a8a74e5c008a11ccce5\transformed\lifecycle-runtime-2.5.0\res
+com.example.myapplication.app-jetified-annotation-experimental-1.1.0-39 C:\Users\yeonp\.gradle\caches\transforms-3\d94281720382a7a89a20af48d66752c9\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.myapplication.app-jetified-viewpager2-1.0.0-40 C:\Users\yeonp\.gradle\caches\transforms-3\dd0ce136de6aa1e99b442f04e06b9020\transformed\jetified-viewpager2-1.0.0\res
+com.example.myapplication.app-jetified-dotsindicator-4.3-debug-41 C:\Users\yeonp\.gradle\caches\transforms-3\dff61bcc6726d4a9c4a5bb1a53a9299f\transformed\jetified-dotsindicator-4.3-debug\res
+com.example.myapplication.app-drawerlayout-1.1.1-42 C:\Users\yeonp\.gradle\caches\transforms-3\e33a5a07e0e96c48df04ee4e4b5363cc\transformed\drawerlayout-1.1.1\res
+com.example.myapplication.app-jetified-play-services-ads-21.0.0-43 C:\Users\yeonp\.gradle\caches\transforms-3\e76815b53807b70b7d1868d55de646d0\transformed\jetified-play-services-ads-21.0.0\res
+com.example.myapplication.app-browser-1.0.0-44 C:\Users\yeonp\.gradle\caches\transforms-3\e7c579d8ff1780ad4abb562d5dec906c\transformed\browser-1.0.0\res
+com.example.myapplication.app-transition-1.2.0-45 C:\Users\yeonp\.gradle\caches\transforms-3\e89f6667b25ffd1e670d2a33688ccd32\transformed\transition-1.2.0\res
+com.example.myapplication.app-jetified-debug-db-base-1.0.6-46 C:\Users\yeonp\.gradle\caches\transforms-3\eef6f5eb1629ba7f56048e99cf111fb0\transformed\jetified-debug-db-base-1.0.6\res
+com.example.myapplication.app-databinding-adapters-7.2.2-47 C:\Users\yeonp\.gradle\caches\transforms-3\f38fe6ade4f7837e7a515cb392c62870\transformed\databinding-adapters-7.2.2\res
+com.example.myapplication.app-work-runtime-2.7.0-48 C:\Users\yeonp\.gradle\caches\transforms-3\f7ce3ad393766733096226e7fdab38c9\transformed\work-runtime-2.7.0\res
+com.example.myapplication.app-lifecycle-viewmodel-2.5.0-49 C:\Users\yeonp\.gradle\caches\transforms-3\fd66481db76bdcf828aeaf6eaa0ee6b0\transformed\lifecycle-viewmodel-2.5.0\res

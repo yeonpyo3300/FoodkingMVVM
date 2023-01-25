@@ -8,6 +8,7 @@ public final class EventGiftFragment extends androidx.fragment.app.Fragment impl
     public static final com.example.myapplication.Fragment.EventGiftFragment.Companion Companion = null;
     @org.jetbrains.annotations.NotNull()
     public static final java.lang.String TAG = "Test log";
+    private java.util.HashMap _$_findViewCache;
     
     public EventGiftFragment() {
         super();

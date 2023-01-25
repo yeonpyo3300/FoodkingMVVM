@@ -8,6 +8,7 @@ public final class ChatFragment extends androidx.fragment.app.Fragment {
     public static final com.example.myapplication.Fragment.ChatFragment.Companion Companion = null;
     @org.jetbrains.annotations.NotNull()
     public static final java.lang.String TAG = "Test log";
+    private java.util.HashMap _$_findViewCache;
     
     public ChatFragment() {
         super();

@@ -11,6 +11,7 @@ public final class RestarauntListActivity extends androidx.appcompat.app.AppComp
     @org.jetbrains.annotations.NotNull()
     private java.util.ArrayList<com.example.myapplication.Adapter.RestaurantListModel> restaurantList;
     private com.example.myapplication.Adapter.RestaurantListAdapter restAdapter;
+    private java.util.HashMap _$_findViewCache;
     
     public RestarauntListActivity() {
         super();

@@ -2,18 +2,18 @@ package com.example.myapplication.Adapter;
 
 import java.lang.System;
 
-@kotlin.Metadata(mv = {1, 7, 1}, k = 1, d1 = {"\u0000&\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\t\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\u0018\u0000 \u00122\u00020\u0001:\u0001\u0012B\u0015\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0002\u0010\u0006J\u000e\u0010\u000e\u001a\u00020\u000f2\u0006\u0010\u0010\u001a\u00020\u0011R\u000e\u0010\u0002\u001a\u00020\u0003X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u0007\u001a\u00020\bX\u0082\u0004\u00a2\u0006\u0004\n\u0002\u0010\tR\u0010\u0010\n\u001a\u00020\bX\u0082\u0004\u00a2\u0006\u0004\n\u0002\u0010\tR\u0010\u0010\u000b\u001a\u00020\bX\u0082\u0004\u00a2\u0006\u0004\n\u0002\u0010\tR\u0010\u0010\f\u001a\u00020\bX\u0082\u0004\u00a2\u0006\u0004\n\u0002\u0010\tR\u0010\u0010\r\u001a\u00020\bX\u0082\u0004\u00a2\u0006\u0004\n\u0002\u0010\t\u00a8\u0006\u0013"}, d2 = {"Lcom/example/myapplication/Adapter/RestaurantListViewHolder;", "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;", "context", "Landroid/content/Context;", "itemView", "Landroid/view/View;", "(Landroid/content/Context;Landroid/view/View;)V", "restAddress", "error/NonExistentClass", "Lerror/NonExistentClass;", "restCategory", "restImage", "restName", "restReviewRating", "bindView", "", "restaurantListModel", "Lcom/example/myapplication/Adapter/RestaurantListModel;", "Companion", "app_debug"})
+@kotlin.Metadata(mv = {1, 7, 1}, k = 1, d1 = {"\u00006\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\u0018\u0000 \u00132\u00020\u0001:\u0001\u0013B\u0015\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0002\u0010\u0006J\u000e\u0010\u000f\u001a\u00020\u00102\u0006\u0010\u0011\u001a\u00020\u0012R\u000e\u0010\u0002\u001a\u00020\u0003X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0016\u0010\u0007\u001a\n \t*\u0004\u0018\u00010\b0\bX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0016\u0010\n\u001a\n \t*\u0004\u0018\u00010\b0\bX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0016\u0010\u000b\u001a\n \t*\u0004\u0018\u00010\f0\fX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0016\u0010\r\u001a\n \t*\u0004\u0018\u00010\b0\bX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0016\u0010\u000e\u001a\n \t*\u0004\u0018\u00010\b0\bX\u0082\u0004\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u0014"}, d2 = {"Lcom/example/myapplication/Adapter/RestaurantListViewHolder;", "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;", "context", "Landroid/content/Context;", "itemView", "Landroid/view/View;", "(Landroid/content/Context;Landroid/view/View;)V", "restAddress", "Landroid/widget/TextView;", "kotlin.jvm.PlatformType", "restCategory", "restImage", "Landroid/widget/ImageView;", "restName", "restReviewRating", "bindView", "", "restaurantListModel", "Lcom/example/myapplication/Adapter/RestaurantListModel;", "Companion", "app_debug"})
 public final class RestaurantListViewHolder extends androidx.recyclerview.widget.RecyclerView.ViewHolder {
     private final android.content.Context context = null;
     @org.jetbrains.annotations.NotNull()
     public static final com.example.myapplication.Adapter.RestaurantListViewHolder.Companion Companion = null;
     @org.jetbrains.annotations.NotNull()
     public static final java.lang.String TAG = "Test log";
-    private final error.NonExistentClass restName = null;
-    private final error.NonExistentClass restCategory = null;
-    private final error.NonExistentClass restAddress = null;
-    private final error.NonExistentClass restReviewRating = null;
-    private final error.NonExistentClass restImage = null;
+    private final android.widget.TextView restName = null;
+    private final android.widget.TextView restCategory = null;
+    private final android.widget.TextView restAddress = null;
+    private final android.widget.TextView restReviewRating = null;
+    private final android.widget.ImageView restImage = null;
     
     public RestaurantListViewHolder(@org.jetbrains.annotations.NotNull()
     android.content.Context context, @org.jetbrains.annotations.NotNull()

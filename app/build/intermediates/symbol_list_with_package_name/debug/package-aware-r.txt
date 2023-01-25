@@ -2734,6 +2734,8 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btn_add_payment
+id btn_delete_all_payment
 id btn_onboarding_login
 id buttonPanel
 id cache_measures
@@ -2782,6 +2784,7 @@ id custom
 id customPanel
 id cut
 id dark
+id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2991,6 +2994,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id onAttachStateChangeListener
+id onDateChanged
 id onInterceptTouchReturnSwipe
 id onboarding_Email_Form
 id onboarding_Password_Form
@@ -3014,13 +3019,13 @@ id pin
 id position
 id postLayout
 id profile_nav
+id profile_recycler
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
 id recycler_list
-id recyclerview
 id restart
 id restaurant_list_address
 id restaurant_list_category
@@ -3127,6 +3132,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textWatcher
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3384,6 +3390,7 @@ menu home_bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string PORT_NUMBER
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

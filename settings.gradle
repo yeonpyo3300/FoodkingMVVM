@@ -14,5 +14,6 @@ dependencyResolutionManagement {
         maven { url "https://maven.xyz.com" }
     }
 }
+
 rootProject.name = "Food King"
 include ':app'

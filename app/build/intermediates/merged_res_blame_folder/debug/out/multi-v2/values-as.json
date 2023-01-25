@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapplication.app-mergeDebugResources-40:/values-as/values-as.xml",
+            "outputFile": "com.example.myapplication.app-mergeDebugResources-3:/values-as/values-as.xml",
             "map": [
                 {
-                    "source": "/home/ybiao/.gradle/caches/transforms-3/319818de8066db9dee1015fa48896948/transformed/core-1.8.0/res/values-as/values-as.xml",
+                    "source": "C:\\Users\\yeonp\\.gradle\\caches\\transforms-3\\319818de8066db9dee1015fa48896948\\transformed\\core-1.8.0\\res\\values-as\\values-as.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/ybiao/.gradle/caches/transforms-3/4e49ced3429f0dd509043d76690214ab/transformed/jetified-play-services-base-18.0.0/res/values-as/values.xml",
+                    "source": "C:\\Users\\yeonp\\.gradle\\caches\\transforms-3\\4e49ced3429f0dd509043d76690214ab\\transformed\\jetified-play-services-base-18.0.0\\res\\values-as\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/ybiao/.gradle/caches/transforms-3/afbadbf3980628a8b1e7b44c4e6c3ba5/transformed/jetified-play-services-basement-18.0.0/res/values-as/values.xml",
+                    "source": "C:\\Users\\yeonp\\.gradle\\caches\\transforms-3\\afbadbf3980628a8b1e7b44c4e6c3ba5\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-as\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,24 +55,7 @@
                     }
                 },
                 {
-                    "source": "/home/ybiao/.gradle/caches/transforms-3/e76815b53807b70b7d1868d55de646d0/transformed/jetified-play-services-ads-21.0.0/res/values-as/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "199,271,370,425,529,588,700,785,824,907,946,990,1049,1140",
-                        "endColumns": "71,98,54,103,58,111,84,38,82,38,43,58,90,43",
-                        "endOffsets": "270,369,424,528,587,699,784,823,906,945,989,1048,1139,1183"
-                    },
-                    "to": {
-                        "startLines": "104,105,106,107,108,109,110,112,113,114,115,116,117,118",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "9282,9358,9461,9520,9628,9691,9807,9977,10020,10107,10150,10198,10261,10356",
-                        "endColumns": "75,102,58,107,62,115,88,42,86,42,47,62,94,47",
-                        "endOffsets": "9353,9456,9515,9623,9686,9802,9891,10015,10102,10145,10193,10256,10351,10399"
-                    }
-                },
-                {
-                    "source": "/home/ybiao/.gradle/caches/transforms-3/9d6778b007a14e0c6659deb3da7018f2/transformed/material-1.6.1/res/values-as/values-as.xml",
+                    "source": "C:\\Users\\yeonp\\.gradle\\caches\\transforms-3\\9d6778b007a14e0c6659deb3da7018f2\\transformed\\material-1.6.1\\res\\values-as\\values-as.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -91,7 +74,24 @@
                     }
                 },
                 {
-                    "source": "/home/ybiao/.gradle/caches/transforms-3/25fdb4b5729408368178052da17f5e34/transformed/appcompat-1.5.0/res/values-as/values-as.xml",
+                    "source": "C:\\Users\\yeonp\\.gradle\\caches\\transforms-3\\e76815b53807b70b7d1868d55de646d0\\transformed\\jetified-play-services-ads-21.0.0\\res\\values-as\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "199,271,370,425,529,588,700,785,824,907,946,990,1049,1140",
+                        "endColumns": "71,98,54,103,58,111,84,38,82,38,43,58,90,43",
+                        "endOffsets": "270,369,424,528,587,699,784,823,906,945,989,1048,1139,1183"
+                    },
+                    "to": {
+                        "startLines": "104,105,106,107,108,109,110,112,113,114,115,116,117,118",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "9282,9358,9461,9520,9628,9691,9807,9977,10020,10107,10150,10198,10261,10356",
+                        "endColumns": "75,102,58,107,62,115,88,42,86,42,47,62,94,47",
+                        "endOffsets": "9353,9456,9515,9623,9686,9802,9891,10015,10102,10145,10193,10256,10351,10399"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\yeonp\\.gradle\\caches\\transforms-3\\25fdb4b5729408368178052da17f5e34\\transformed\\appcompat-1.5.0\\res\\values-as\\values-as.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

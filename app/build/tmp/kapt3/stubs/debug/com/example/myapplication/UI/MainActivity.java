@@ -8,6 +8,7 @@ public final class MainActivity extends androidx.appcompat.app.AppCompatActivity
     public static final com.example.myapplication.UI.MainActivity.Companion Companion = null;
     @org.jetbrains.annotations.NotNull()
     public static final java.lang.String TAG = "Test log";
+    private java.util.HashMap _$_findViewCache;
     
     public MainActivity() {
         super();

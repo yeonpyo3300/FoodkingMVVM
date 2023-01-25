@@ -13,6 +13,7 @@ public final class HomeActivity extends androidx.appcompat.app.AppCompatActivity
     @org.jetbrains.annotations.NotNull()
     public static final java.lang.String TAG = "Test log";
     private final com.google.android.material.navigation.NavigationBarView.OnItemSelectedListener onBottomNavItemSelectedListener = null;
+    private java.util.HashMap _$_findViewCache;
     
     public HomeActivity() {
         super();
